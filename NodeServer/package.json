@@ -1,0 +1,20 @@
+{
+  "name": "node-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "hotnode index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "hotnode": "0.0.8"
+  }
+}
